@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ninja Fishing</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser-arcade-physics.min.js"></script>
 </head>
 <body>
-    <!-- No HTML elements needed - Phaser will create canvas -->
+    <div id="startScreen">
+        <h1>Ninja Fishing</h1>
+        <p>Press <strong>Space</strong> to throw shurikens and slice fish!</p>
+        <button id="startButton">Start Game</button>
+    </div>
+    <canvas id="gameCanvas" style="display: none;"></canvas>
     <script src="game.js"></script>
 </body>
 </html>

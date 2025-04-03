@@ -1,5 +1,9 @@
 body {
     margin: 0;
-    overflow: hidden; /* Hide scrollbars */
-    background-color: #000; /* Optional fallback *//
+    overflow: hidden;
+    background-color: black;
+}
+
+canvas {
+    display: block;
 }
